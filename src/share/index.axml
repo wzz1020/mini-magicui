@@ -1,0 +1,2 @@
+<image src="./share.png" mode="widthFix" onTap="share"
+    style="position: fixed;width: 100rpx;bottom: 150rpx; right: 10rpx"/>

@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "share",
+  "usingComponents": {
+    "share": "../index"
+  }
+}

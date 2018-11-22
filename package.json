@@ -1,0 +1,27 @@
+{
+  "name": "mini-magicui",
+  "version": "1.0.1",
+  "description": "",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wzz1020/mini-magicui.git"
+  },
+  "files": [
+    "es"
+  ],
+  "keywords": [
+    "custom-component",
+    "mini-program"
+  ],
+  "author": "wzz",
+  "license": "MIT",
+  "devDependencies": {
+    "rc-tools": "6.x"
+  },
+  "dependencies": {},
+  "scripts": {
+    "build": "rc-tools run compile && node scripts/cp.js && node scripts/rm.js",
+    "pub": "git push origin && npm run build && npm publish"
+  }
+}
