@@ -20,5 +20,5 @@ $ npm install mini-magic --save
 
 在axml文件中进行调用：
 ```html
-
+<share name="" des="" icon="" shareList="[]" pageUrl=""></share>
 ```
