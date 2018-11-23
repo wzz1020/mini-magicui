@@ -1,9 +1,9 @@
-# magic-alipay
+# mini-magicui
 
 ## 安装
 
 ```bash
-$ npm install magic-alipay --save
+$ npm install mini-magic --save
 ```
 
 ## 使用

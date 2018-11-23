@@ -1,13 +1,13 @@
 Component({
   data: {
-    appId: '2018110762077090'
+    appId: '2018110762077090',
   },
   props: {
-   name: '',
-   des: '',
-   icon: '',
-   pageUrl: '',
-   shareList: []
+    name: '',
+    des: '',
+    icon: '',
+    pageUrl: '',
+    shareList: [],
   },
   methods: {
     share() {
@@ -19,15 +19,15 @@ Component({
           des: this.props.des,
           icon: this.props.icon,
           pageUrl: this.props.pageUrl,
-          shareList: this.props.shareList
+          shareList: this.props.shareList,
         },
         success: (res) => {
           // console.log(JSON.stringfy(res))
         },
         fail: (res) => {
           // console.log(JSON.stringfy(res))
-        }
+        },
       });
-    }
-  }
+    },
+  },
 });
