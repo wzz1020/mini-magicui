@@ -21,10 +21,10 @@ Component({
           pageUrl: this.props.pageUrl,
           shareList: this.props.shareList,
         },
-        success: (res) => {
+        success: () => {
           // console.log(JSON.stringfy(res))
         },
-        fail: (res) => {
+        fail: () => {
           // console.log(JSON.stringfy(res))
         },
       });
