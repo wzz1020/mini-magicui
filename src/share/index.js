@@ -22,10 +22,8 @@ Component({
           shareList: this.props.shareList,
         },
         success: () => {
-          // console.log(JSON.stringfy(res))
         },
         fail: () => {
-          // console.log(JSON.stringfy(res))
         },
       });
     },
