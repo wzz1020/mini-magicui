@@ -1,6 +1,6 @@
 {
-  "name": "wzz_1020_ui_test",
-  "version": "1.0.1",
+  "name": "wzz_test",
+  "version": "1.0.7",
   "description": "mini-magicui",
   "main": "app.js",
   "repository": {

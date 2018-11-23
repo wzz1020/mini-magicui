@@ -1,6 +1,6 @@
 Component({
   data: {
-    appId: '2018110762077090',
+    appId: '',
   },
   props: {
     name: '',
