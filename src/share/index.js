@@ -1,13 +1,13 @@
 Component({
   data: {
-    appId: '2018110762077090'
   },
   props: {
-   name: '',
-   des: '',
-   icon: '',
-   pageUrl: '',
-   shareList: []
+    appId: '',
+    name: '',
+    des: '',
+    icon: '',
+    pageUrl: '',
+    shareList: []
   },
   methods: {
     share() {

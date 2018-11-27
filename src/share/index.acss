@@ -1,0 +1,7 @@
+.share-icon {
+  position: fixed;
+  width: 100rpx;
+  bottom: 150rpx; 
+  right: 10rpx;
+  z-index:100;
+}

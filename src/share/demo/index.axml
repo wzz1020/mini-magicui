@@ -1,3 +1,10 @@
 <view>
-  <share></share>
+  <share 
+    appId="" 
+    name="" 
+    des="" 
+    icon="" 
+    shareList="[]" 
+    pageUrl="">
+  </share>
 </view>
