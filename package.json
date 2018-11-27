@@ -1,11 +1,11 @@
 {
   "name": "mini-magicui",
   "version": "1.0.2",
-  "description": "",
+  "description": "mini-magicui-components",
   "main": "",
   "repository": {
     "type": "git",
-    "url": "git@github.com:wzz1020/mini-magicui.git"
+    "url": "git+ssh://git@github.com/wzz1020/mini-magicui.git"
   },
   "files": [
     "es"
@@ -14,14 +14,22 @@
     "custom-component",
     "mini-program"
   ],
-  "author": "wzz",
+  "author": "wzz_1020",
   "license": "MIT",
   "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-ali": "^3.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "pre-commit-eslint": "^0.0.6",
     "rc-tools": "6.x"
   },
   "dependencies": {},
   "scripts": {
     "build": "rc-tools run compile && node scripts/cp.js && node scripts/rm.js",
     "pub": "git push origin && npm run build && npm publish"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/wzz1020/mini-magicui/issues"
+  },
+  "homepage": "https://github.com/wzz1020/mini-magicui#readme"
 }

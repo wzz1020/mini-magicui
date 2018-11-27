@@ -19,15 +19,13 @@ Component({
           des: this.props.des,
           icon: this.props.icon,
           pageUrl: this.props.pageUrl,
-          shareList: this.props.shareList
+          shareList: this.props.shareList,
         },
-        success: (res) => {
-          // console.log(JSON.stringfy(res))
+        success: () => {
         },
-        fail: (res) => {
-          // console.log(JSON.stringfy(res))
-        }
+        fail: () => {
+        },
       });
-    }
-  }
+    },
+  },
 });

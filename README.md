@@ -1,9 +1,9 @@
-# magic-alipay
+# mini-magicui
 
 ## 安装
 
 ```bash
-$ npm install magic-alipay --save
+$ npm install mini-magic --save
 ```
 
 ## 使用
@@ -20,5 +20,5 @@ $ npm install magic-alipay --save
 
 在axml文件中进行调用：
 ```html
-
+<share name="" des="" icon="" shareList="[]" pageUrl=""></share>
 ```
